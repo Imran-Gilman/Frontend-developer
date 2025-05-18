@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+
+    <title>Дмитрий Алексеев</title>
+</head>
+
+<body class="body">
+    <div class="popup-container">
+        <form class="popup" method="post">
+            <div class="mb-3">
+                <label class="form-label" for="name"></label>
+                <input type="text" id="name" class="form-control" name="name" placeholder="Введите ваше имя" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="email"></label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Введите ваш - email"
+                    required>
+            </div>
+            <button class="btn btn-primary open-popup">Отправить</button>
+        </form>
+    </div>
+    <header class="header">
+        <div class="fixed-container">
+            <div>
+                <a class="header__link" href="#">Услуги</a>
+                <a class="header__link" href="#">Портфолио</a>
+                <a class="header__link" href="#">Стоимость</a>
+            </div>
+            <div>
+                <span class="header__span">+7 (499) 995-55-77</span>
+                <button class="light-btn open-popup">Заказать звонок</button>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="fixed-container">
+            <h1 class="title hero__title">Дмитрий Алексеев</h1>
+            <p class="descr hero__descr">Frontend-разработчик и веб-верстальщик</p>
+            <button class="blue-btn open-popup">Узнать больше</button>
+        </div>
+    </section>
+    <section>
+        <div class="fixed-container">
+            <h2 class="title"> Что я делаю</h2>
+            <div class="services">
+                <div>
+                    <img class="services__image" src="img/Group1.png" width="177" alt="">
+                    <p class="descr services__descr">Вёрстка&nbsp;лендинг&nbsp;страници сайтов любой сложности</p>
+                </div>
+                <div>
+                    <img class="services__image" src="img/Group2.png" width="177" alt="">
+                    <p class="descr services__descr">Адаптивная вёрстка под всебраузеры и устройства</p>
+                </div>
+                <div>
+                    <img class="services__image" src="img/Group3.png" width="177" alt="">
+                    <p class="descr services__descr">Frontend–разработка и программирование</p>
+                </div>
+                <div>
+                    <img class="services__image" src="img/Group4.png" width="177" alt="">
+                    <p class="descr services__descr">Исправление и доработка существующей вёрстки</p>
+                </div>
+            </div>
+            <button class="light-btn open-popup">Узнать стоимость</button>
+        </div>
+    </section>
+    <section>
+        <div class="fixed-container">
+            <h2 class="title">Примеры работ</h2>
+            <div class="projects">
+                <div>
+                    <img class="projects__image" src="img/group.png" alt="">
+                    <p class="descr projects__descr">Сайт психолога Веры Антоновой</p>
+                </div>
+                <div>
+                    <img class="projects__image projects__descr" src="img/grouppp.png" alt="">
+                    <p class="descr"> Сайт магазина детской одежды</p>
+                </div>
+                <div>
+                    <img class="projects__image projects__descr" src="img/groupp.png" alt="">
+                    <p class="descr">Сайт магазина «Рыболов»</p>
+                </div>
+            </div>
+            <button class="light-btn open-popup">Заказать проект</button>
+        </div>
+    </section>
+    <section class="price-info">
+        <div class="fixed-container">
+            <h2 class="title price-info__title">Адаптивная вёрстка под все устройства
+                и браузеры от&nbsp;1000 ₽ всего за 4 часа.*</h2>
+            <small class="price-info__small">*Срок и стоимость могут отличаться от заявленных и рассчитываются
+                индивидуально,
+                в зависимости от сложности
+                задач.</small>
+        </div>
+    </section>
+    <footer>
+        <div class="fixed-container">
+            <div class="footer__div">
+                <a class="footer__link" href="#">Услуги</a>
+                <a class="footer__link" href="#">Портфолио</a>
+                <a class="footer__link" href="#">Стоимость</a>
+            </div>
+            <div>
+                <a class="footer__link" href="dmitry@alekseev.com">dmitry@alekseev.com</a>
+                <a class="footer__link" href="tel:+7(499)9957755">+7 (499) 995 77 55</a>
+            </div>
+            <div class="social">
+                <button class="light-btn social__btn open-popup">Заказать звонок</button>
+                <ul class=" social-list list-reset">
+                    <li class="social__item"><a href="#" class="social__link social__link--fb" target="_blank"
+                            aria-label="link to facebook"></a></li>
+                    <li class="social__item"><a href="#" class="social__link social__link--vk" target="_blank"
+                            aria-label="link to vk"></a>
+                    </li>
+                    <li class="social__item"><a href="#" class="social__link social__link--yt" target="_blank"
+                            aria-label="link to youtube"></a></li>
+                    <li class="social__item"><a href="#" class="social__link social__link--tg" target="_blank"
+                            aria-label="link to telegram"></a></li>
+                    <li class="social__item"><a href="#" class="social__link social__link--inst" target="_blank"
+                            aria-label="link to instagram"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
